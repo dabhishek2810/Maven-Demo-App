@@ -11,5 +11,9 @@ public class pwdEncode {
 		byte[] encode = encoder.encode(str.getBytes());
 		return encode.toString();
 	}
-
+	
+	public Integer getAddValue(int a, int b) {
+		int value = a+b;	
+		return value; 
+	}
 }
